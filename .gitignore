@@ -1,0 +1,15 @@
+# Local source workspace
+work/
+tar-1.34/
+tar-1.34.tar.gz
+
+# Build output
+install/
+
+# The prebuilt tarball ships via GitHub Releases, not via clone bloat
+prebuilt/*.tar.gz
+
+# Editor / OS
+*.swp
+*~
+.DS_Store
